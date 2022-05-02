@@ -1,0 +1,10 @@
+{
+  "name": "Andrii",
+  "surname": "Vovnenko",
+  "age": 29,
+  "contacts": {
+    "phones": ["123456789"],
+    "telegram": "@telegramName"
+  },
+  "technologies": ["node.js", "React.js"]
+}

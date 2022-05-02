@@ -11,7 +11,7 @@ function UserComponent() {
       <p>technologies:</p>
       <ul>
         {user.technologies.map(tech => (
-          <li>{tech}</li>
+          <li key={tech}>{tech}</li>
         ))}
       </ul>
       <p>contacts:</p>
@@ -21,7 +21,7 @@ function UserComponent() {
           <p>phones:</p>
           <ul>
             {user.contacts.phones.map(phone => (
-              <li>{phone}</li>
+              <li key={phone}>{phone}</li>
             ))}
           </ul>
         </li>
